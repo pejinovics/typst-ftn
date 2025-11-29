@@ -1,22 +1,22 @@
-#let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
+#let format_strane = "a4"         // могуће вредности: iso-b5, a4
 #let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let autor = "Стефан Пејиновић"
 
 // На енглеском
 #let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let autor_eng = "Stefan Pejinović"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV13/2021"
 
 // Име и презиме ментора
-#let mentor = "Игор Дејановић"
+#let mentor = "Милош Симић"
 // Звање: редовни професор, ванредни професор, доцент
-#let mentor_zvanje = "редовни професор"
+#let mentor_zvanje = "доцент"
 
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
+#let stepen = "Osnovne академске студије"
 //#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
@@ -41,16 +41,15 @@
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
-#let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
+#let datum_odbrane = "01.12.2025"
+#let komisija_predsednik = "Горан Сладић"
+#let komisija_predsednik_zvanje = "редовни професор"
+#let komisija_clan = "Милан Стојков"
 #let komisija_clan_zvanje = "доцент"
-
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
-#let mentor_eng = "Igor Dejanović"
+#let komisija_predsednik_eng = "Goran Sladić"
+#let komisija_clan_eng = "Milan Stojkov"
+#let mentor_eng = "Miloš Simić"
 
 
 // Ово даље углавном не треба мењати.
