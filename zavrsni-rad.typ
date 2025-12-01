@@ -70,6 +70,7 @@
 #include "poglavlja/1-uvod.typ"
 #include "poglavlja/2-teorijske_osnove.typ"
 #include "poglavlja/3-funkcionalni_zahtevi.typ"
+#include "poglavlja/4-arhitektura_sistema.typ"
 #include "poglavlja/7-zakljucak.typ"
 
 
