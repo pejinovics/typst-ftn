@@ -71,6 +71,7 @@
 #include "poglavlja/2-teorijske_osnove.typ"
 #include "poglavlja/3-funkcionalni_zahtevi.typ"
 #include "poglavlja/4-arhitektura_sistema.typ"
+#include "poglavlja/5-implementacija.typ"
 #include "poglavlja/7-zakljucak.typ"
 
 
@@ -111,8 +112,8 @@
 }
 
 // TODO: Додаци - искоментарисати ако се не користе
-#include "poglavlja/dodatak 1 - skracenice.typ"
-#include "poglavlja/dodatak 2 - pojmovi.typ"
+// #include "poglavlja/dodatak 1 - skracenice.typ"
+// #include "poglavlja/dodatak 2 - pojmovi.typ"
 
 #include "biografija.typ"
 

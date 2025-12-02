@@ -1,9 +1,9 @@
 #let format_strane = "a4"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
+#let naslov = "Радни оквир за провере активности сервиса у дистрибуираном рачунарству у облаку"
 #let autor = "Стефан Пејиновић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
+#let naslov_eng = "Service Health-Check Framework for Distributed Cloud Computing"
 #let autor_eng = "Stefan Pejinović"
 
 #let indeks = "SV13/2021"
@@ -21,33 +21,30 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "провере активности сервиса, микросервиси, дистрибуирани системи, Docker"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+    Овај рад приказује развој радног оквира за провере активности сервиса у дистрибуираном рачунарству у облаку. Развијено решење омогућава надзор микросервисних компоненти кроз HTTP, TCP и gRPC провере, детекцију неактивности и аутоматски опоравак сервиса у Docker окружењу. Рад обухвата дизајн архитектуре, имплементацију механизама за управљање животним циклусом сервиса, као и излагање метрика у OpenMetrics формату и конфигурацију алармирања путем Prometheus-а и Alertmanager-а.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "service health checks, microservices, distributed systems, Docker"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+    This thesis presents the development of a service health-check framework for distributed cloud computing. The proposed solution enables monitoring of microservices through HTTP, TCP, and gRPC checks, detection of inactivity, and automated service recovery within a Docker environment. The work includes the system’s architectural design, implementation of lifecycle management mechanisms, metric exposition in the OpenMetrics format, and alerting configuration using Prometheus and Alertmanager.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+    Имплементирати радни оквир за провере активности сервиса у дистрибуираном рачунарству у облаку. Систем треба да омогући надзор микросервисних компоненти путем провера активности заснованих на _HTTP_, _TCP_ и _gRPC_ протоколима, као и детекцију стања неактивности сервиса. Неопходно је реализовати механизам аутоматског опоравка сервиса у _Docker_ окружењу, кроз поновно покретање контејнера након детектованог отказа. Поред тога, потребно је интегрисати излагање метрика у _OpenMetrics_ формату и омогућити алармирање путем _Prometheus_ и _Alertmanager_ система.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.12.2025"
-#let komisija_predsednik = "Горан Сладић"
+#let datum_odbrane = "04.12.2025"
+#let komisija_predsednik = "Жељко Вуковић"
 #let komisija_predsednik_zvanje = "редовни професор"
 #let komisija_clan = "Милан Стојков"
 #let komisija_clan_zvanje = "доцент"
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Goran Sladić"
+#let komisija_predsednik_eng = "Željko Vuković"
 #let komisija_clan_eng = "Milan Stojkov"
 #let mentor_eng = "Miloš Simić"
 
