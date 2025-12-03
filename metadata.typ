@@ -16,7 +16,7 @@
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Osnovne академске студије"
+#let stepen = "Основне академске студије"
 //#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
